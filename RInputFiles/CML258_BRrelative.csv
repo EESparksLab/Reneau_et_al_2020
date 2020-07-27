@@ -1,0 +1,22 @@
+﻿filename,operator,plot,plant,Brnumber,Color,line_raw_slope(N/m),Ratio,Difference,WR1,WR2,WR3
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_3_47.csv,LE,Plot A,1,3,blue,312.930714,0.460621309,168.788159,0.763273137,0.664437949,0.908258807
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_8_3.csv,LE,Plot A,2,3,blue,305.992914,0.349770047,198.965758,0.610491879,0.728571244,0.786376811
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_11_20.csv,LE,Plot A,3,3,blue,351.486563,0.449098829,193.634359,0.718919555,0.713390225,0.875657904
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_14_21.csv,LE,Plot A,4,2,black,145.247689,0.58688469,60.0040441,0.660140709,0.889029691,
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_16_20.csv,LE,Plot A,5,3,blue,257.50523,0.639264585,92.891256,0.680229417,0.875220932,1.073760789
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_18_47.csv,LE,Plot A,6,3,blue,360.543898,0.328301923,242.176643,0.532875973,0.711124731,0.866366209
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_21_59.csv,LE,Plot A,7,3,blue,389.240149,0.411175968,229.193954,0.69335189,0.84398297,0.702652079
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_24_22.csv,LE,Plot A,8,3,blue,365.300921,0.715021222,104.10301,0.908601525,0.879373455,0.894895077
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_27_1.csv,LE,Plot A,9,3,blue,327.751406,0.473099664,172.692326,0.632249387,0.809908422,0.923907106
+/home/seeterra/Desktop/sparks_root_pusher/data/1259/2019_9_27_16_29_56.csv,LE,Plot A,10,3,blue,349.766081,0.283590027,250.5759088,0.43811063,0.882098051,0.733821276
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_29_30.csv,LE,Plot B,1,3,blue,403.063048,0.628350788,149.798064,0.80877927,0.734936365,1.057115439
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_34_16.csv,LE,Plot B,2,2,black,367.80239,0.543404889,167.936773,0.697899367,0.778629291,
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_36_50.csv,LE,Plot B,3,2,black,401.394175,0.744899955,102.395672,0.883088195,0.843517057,
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_38_50.csv,LE,Plot B,4,3,blue,348.20028,0.557979609,153.911624,0.757022008,0.789327768,0.933796929
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_42_33.csv,LE,Plot B,5,2,black,327.440949,0.613204364,126.65273,0.649007042,0.944834685,
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_44_25.csv,LE,Plot B,6,3,blue,375.575876,0.425666211,215.705916,0.683109001,0.751529375,0.829150198
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_48_4.csv,LE,Plot B,7,3,blue,330.975624,0.305856225,229.744669,0.460958533,0.745260831,0.890322131
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_53_42.csv,LE,Plot B,8,2,black,337.985441,0.424464591,194.522589,0.577371859,0.735166746,
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_56_18.csv,LE,Plot B,9,2,black,267.504203,0.667368348,88.980365,0.723502312,0.922413567,
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_15_58_29.csv,LE,Plot B,10,3,blue,300.9321,0.303898601,209.4792557,0.470834193,0.706054453,0.914160623
+/home/seeterra/Desktop/sparks_root_pusher/data/1383/2019_9_27_16_1_46.csv,LE,Plot B,11,2,black,149.075024,0.636731718,54.1542279,0.839935487,0.75807217,
