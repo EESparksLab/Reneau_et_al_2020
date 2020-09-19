@@ -6,7 +6,7 @@
 #March 11, 2020
 
 #R Version 3.6.3 for Mac
-setwd("~/Dropbox/UD/ Writing/Reneau2020/RInputFiles")
+setwd("~/Dropbox/UD/Writing/Reneau2020/Reneau_et_al_2020/RInputFiles")
 
 #Version 3.3.0
 library("ggplot2")
@@ -63,7 +63,9 @@ head(data9)
 #Data line averages used for Figure 5D
 data10 <- read.csv("LineAverages.csv")
 head(data10) 
-
+#Data used to determine if the change in beam length alters the brace root contribution
+data11 <- read.csv("LengthCorrection.csv")
+head(data11)
 
 
 
@@ -916,3 +918,44 @@ S5A <-
 
   #Save as pdf:  8.5 x 10
 
+
+  
+  
+  #------------------------------
+  #Figure 5S
+  
+  data11$Plot <- as.factor(data11$Plot)
+  data11$Plant <- as.factor(data11$Plant)
+  data11$Slope.with <- as.factor(data11$Slope.with)
+  data11$Slope.without <- as.factor(data11$Slope.without)
+  data11$FSwith <- as.factor(data11$FSwith)
+  data11$Fswithout <- as.factor(data11$Fswithout)
+  data11$Height.attachment <- as.factor(data11$Height.attachment)
+  data11$Height.attachment.m. <- as.factor(data11$Height.attachment.m.)
+  
+  
+  
+  
+  data11a <-melt(data11)
+  head(data11a)
+  
+  ggplot (data11a, aes(variable, value))+
+    geom_violin()+
+    geom_point(size = 2, colour = "black") +
+    theme(axis.text.x = element_text(size=15, angle = 90, vjust=0.5), 
+          axis.text.y = element_text(size=15), 
+          plot.title=element_text(size=15, vjust=3), 
+          axis.text=element_text(size=17), 
+          axis.title = element_text(size=15), 
+          axis.title.y= element_text(vjust=2.5), 
+          axis.title.x= element_text(vjust=-1.4), 
+          axis.ticks.length = unit(.2,"cm"),
+          strip.background = element_rect(fill="grey"),
+          strip.text.x = element_text(size = 15, colour = "blue"),
+          strip.text.y = element_text(size = 15, colour = "black"),
+          legend.title=element_blank()) +
+    xlab("") + 
+    ylab("Ratio") +
+    ylim(0,1)
+  
+  #Save as pdf:  4 x 6
